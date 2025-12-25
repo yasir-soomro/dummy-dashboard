@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, TrendingDown, DollarSign, Activity, CreditCard } from 'lucide-react';
+import { TrendingUp, DollarSign, Activity } from 'lucide-react';
 
 interface ReportsViewProps {
   data: any;

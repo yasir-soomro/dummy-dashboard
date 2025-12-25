@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { User, Bell, Lock, Globe, Moon, Save, Loader2, Check } from 'lucide-react';
+import { User, Bell, Lock, Save, Loader2, Check } from 'lucide-react';
 import { useAppContext } from '../App';
 import { updateUser } from '../services/api';
 

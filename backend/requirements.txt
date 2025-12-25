@@ -1,6 +1,1 @@
-fastapi
-uvicorn
-sqlalchemy
-pymysql
-pydantic
-python-multipart
+# Backend files are not required for this frontend dashboard.

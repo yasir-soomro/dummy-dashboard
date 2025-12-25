@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
-import { Menu, Users, ShoppingCart, AlertCircle, CheckCircle, Settings, LogOut } from 'lucide-react';
+import { Menu, Users, ShoppingCart, AlertCircle, CheckCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Sidebar from './components/Sidebar';
 import StatCard from './components/StatCard';

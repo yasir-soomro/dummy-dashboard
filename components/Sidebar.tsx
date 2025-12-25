@@ -15,14 +15,14 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen, currentView, setView, isMobile }) => {
   const { handleLogout } = useAppContext();
   
-  const menuItems = [
+  const menuItems: { id: DashboardState['currentView']; label: string; icon: any }[] = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
     { id: 'users', label: 'Users', icon: Users },
     { id: 'reports', label: 'Reports', icon: FileBarChart },
     { id: 'settings', label: 'Settings', icon: Settings },
   ];
 
-  const handleNavClick = (id: any) => {
+  const handleNavClick = (id: DashboardState['currentView']) => {
     setView(id);
     if (isMobile) setIsOpen(false);
   };
